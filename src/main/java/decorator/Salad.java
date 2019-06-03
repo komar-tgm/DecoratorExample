@@ -7,6 +7,6 @@ public class Salad extends Decorator{
     }
     @Override
     public String recipe() {
-        return this.recipe()+" and Salad";
+        return this.component.recipe()+" and Salad";
     }
 }
